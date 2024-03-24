@@ -24,7 +24,7 @@ By using the most simple shit: A batch script.
 
 See screenshot above.
 
-- .NET8 AOT is indeed "*blazingly fast!*" (also see Nick Chapsas about this, [here](https://www.youtube.com/watch?v=gJcPqdbKF90) on Youtube)
+- .NET8 AOT startup speed is indeed "*blazingly fast!*" (also see Nick Chapsas about this, [here](https://www.youtube.com/watch?v=gJcPqdbKF90) on Youtube)
 - But most important: Even when .NET8 is just ~2ms faster, .NET8 is **not** slower. Which is, to me, the most important fact.
 
 ### Notes
