@@ -5,7 +5,7 @@ A quick startup perfomance comparison between .NET 8 AOT and .NET FX 4.8
 
 ### What?
 
-Some .NET Framework 4.8 devs ("the old farts" 😉) asked me, if a .NET 8 AOT pre-compiled application can really beat a .NET Framework 4.8 runtime/JIT application, when it comes down to startup speed. Cause of the following benefits a .NET Framework 4.8 runtime/JIT application has:
+Some .NET Framework 4.8 devs ("*the old farts*" 😉) asked me, if a .NET 8 AOT pre-compiled application can really beat a .NET Framework 4.8 runtime/JIT application, when it comes down to startup speed. Cause of the following benefits a .NET Framework 4.8 runtime/JIT application has:
 
 - less complex PE header evaluation
 - NGEN performance boost
