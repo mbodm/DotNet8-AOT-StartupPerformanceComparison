@@ -14,7 +14,7 @@ Some .NET Framework 4.8 devs ("*the old farts*" 😉) asked me, if a .NET8 AOT p
 - .NET8 native executable *might* load a trimmed-down framework into memory when started (like i.e. pre-compiled Python does)
 - the love of god (subjective)
 
-Therefore i quickly tested this, since i was curious too.
+Therefore i quickly tested this, since i was curious too. I used my [cdis2410](https://github.com/mbodm/cdis2410) tool to test both approaches.
 
 ### How?
 
