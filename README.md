@@ -10,7 +10,7 @@ Some .NET Framework 4.8 devs ("*the old farts*" 😉) asked me, if a .NET8 AOT p
 - less complex PE header evaluation
 - NGEN performance boost
 - caching (repeated starts)
-- "hot state of CLR/JIT" vs. "Windows handling of a typical native executable" for every repeated start
+- "*hot state of CLR/JIT*" vs. "*Windows handling of a typical native executable*" for every repeated start
 - .NET8 native executable *might* load a trimmed-down framework into memory when started (like i.e. pre-compiled Python does)
 - the love of god (subjective)
 
