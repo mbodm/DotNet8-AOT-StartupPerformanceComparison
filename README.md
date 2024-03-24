@@ -14,6 +14,8 @@ Some .NET Framework 4.8 devs ("*the old farts*" 😉) asked me, if a .NET 8 AOT 
 - native executable maybe "might" load a trimmed down framwork into memory when started (like i.e. pre-compiled Python does)
 - the love of god (subjective)
 
+Therefore i quickly tested this, since i was curious too.
+
 ### How?
 
 By using the most simple shit: A batch script.
