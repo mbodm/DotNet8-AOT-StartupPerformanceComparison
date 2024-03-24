@@ -5,13 +5,13 @@ A quick startup perfomance comparison between .NET 8 AOT and .NET FX 4.8
 
 ### What?
 
-Some .NET Framework 4.8 devs ("*the old farts*" 😉) asked me, if a .NET 8 AOT pre-compiled application can really beat a .NET Framework 4.8 runtime/JIT application, when it comes down to startup speed. Cause of the following benefits a .NET Framework 4.8 runtime/JIT application has:
+Some .NET Framework 4.8 devs ("*the old farts*" 😉) asked me, if a .NET8 AOT pre-compiled application can really beat a .NET Framework 4.8 runtime/JIT application, when it comes down to startup speed. Cause of the following benefits a .NET Framework 4.8 runtime/JIT application has:
 
 - less complex PE header evaluation
 - NGEN performance boost
 - caching (repeated starts)
-- hot state of CLR/JIT vs. "handling a typical native executable"
-- native executable maybe "might" load a trimmed down framwork into memory when started (like i.e. pre-compiled Python does)
+- "hot state of CLR/JIT" vs. "Windows handling a typical native executable" for every repeated start
+- .NET8 native executable "might" load a trimmed-down framwork into memory when started (like i.e. pre-compiled Python does)
 - the love of god (subjective)
 
 Therefore i quickly tested this, since i was curious too.
@@ -24,9 +24,12 @@ By using the most simple shit: A batch script.
 
 See screenshot above.
 
+- .NET8 AOT is indeed "*blazingly fast!*" (also see Nick Chapsas about this: https://www.youtube.com/watch?v=gJcPqdbKF90)
+- But most important: Even when .NET8 is just ~2ms faster, .NET8 is **not** slower. Which is, to me, the most important fact.
+
 ### Notes
 
-This was just a quick test on the Windows Command Prompt. Not multi-billion dollar rocket science analytics by the NASA.
+This were just some quick tests on the Windows Command Prompt. **Not** multi-billion dollar rocket science analytics by the NASA!
 
 Just keep this in mind.
 
